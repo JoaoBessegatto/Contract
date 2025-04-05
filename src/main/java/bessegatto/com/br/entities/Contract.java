@@ -43,4 +43,7 @@ public class Contract {
         this.totalValue = totalValue;
     }
 
+    public List<Installment> getInstallmentList() {
+        return installmentList;
+    }
 }
